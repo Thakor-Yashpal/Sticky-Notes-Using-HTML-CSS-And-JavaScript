@@ -1,0 +1,79 @@
+
+Div {
+Margin: 20px Auto;
+Width: 70%;
+Font-Family: 'Lato';
+Padding: 5px;
+Background: brown ;
+Color:#Fff;
+}
+*{
+Margin:0;
+Padding:0;
+}
+H4 {
+Font-Weight: Bold;
+Font-Size: 2rem;
+}
+P {
+Font-Family: 'Reenie Beanie';
+Font-Size: 2rem;
+}
+Ul,Li{
+List-Style:none;
+}
+Ul{
+Display: Flex;
+Flex-Wrap: Wrap;
+Justify-Content: Center;
+}
+Ul Li A{
+Text-Decoration:none;
+Color:#000;
+Background:#Ffc;
+Display:block;
+Height:10em;
+Width:10em;
+Padding:1em;
+Box-Shadow: 5px 5px 7px Rgba(33,33,33,.7);
+Transition: Transform .15s Linear;
+}
+Ul Li{
+Margin:1em;
+}
+Ul Li:nth-Child(Odd) A{
+Transform:rotate(-4deg);
+Position:relative;
+Top:5px;
+}
+Ul Li:nth-Child(Even) A{
+Transform:rotate(4deg);
+Position:relative;
+Top:5px;
+}
+Ul Li:nth-Child(3n) A{
+Transform:rotate(-3deg);
+Position:relative;
+Top:-5px;
+}
+Ul Li:nth-Child(5n) A{
+Transform:rotate(5deg);
+Position:relative;
+Top:-10px;
+}
+Ul Li A:hover,Ul Li A:focus{
+Box-Shadow:10px 10px 7px Rgba(0,0,0,.7);
+Transform: Scale(1.25);
+Position:relative;
+Z-Index:5;
+}
+Ul Li:nth-Child(Even) A{
+Position:relative;
+Top:5px;
+Background:#Cfc;
+}
+Ul Li:nth-Child(3n) A{
+Position:relative;
+Top:-5px;
+Background:#Ccf;
+}
