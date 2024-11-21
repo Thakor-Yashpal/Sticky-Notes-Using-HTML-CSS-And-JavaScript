@@ -43,10 +43,3 @@ This simple web application allows you to create and manage sticky notes directl
 ## Contributing
 
 Contributions are welcome!  Feel free to submit pull requests for bug fixes, new features, or improvements to the code.
-
-## Screenshots (Optional)
-
-Include a few screenshots of your application in action.  This makes the README more visually appealing and helps users understand the project quickly.  You can embed images like this:
-
-```markdown
-![Untitled picture](https://user-images.githubusercontent.com/75574310/214041077-fc444265-97a4-4aa8-9338-b22dd44f30e5.png)
